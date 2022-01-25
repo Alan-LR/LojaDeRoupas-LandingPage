@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/*FONTE
+font-family: 'Prata', serif;
+
+*/
+body{
+    background-color: #FAFAF8;
+
+}
+.dark{
+    background-color: black;
+}
+.text-white{
+    font-size: 14px;
+    font-family: 'Prata', serif;
+}
+.item-acessorios{
+    font-family: 'Prata', serif;
+    font-size: 11px;
+}
+.item-acessorios:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+.espaco-item{
+    margin-right: 25px;
+}
+.text-white:hover{
+    color:white;
+    font-weight: bold;
+}
+.img-section{
+    width: 100%;
+}
+.conteudo-01{
+    margin-top: 100px;
+}
+.conteudo-01 p{
+    font-size:10px;
+    margin-top: 20px;
+    color: black;
+}
+.conteudo-01 h1, h2, button{
+    font-family: 'Prata', serif;
+
+}
+.button-page{
+    width: 85%;
+    padding: 15px;
+    background: #000000;
+    color: #ffffff;
+    transition: 1s;
+}
+.button-page:hover{
+    border-radius: 20px;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #000000, #5D3F3D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #000000, #5D3F3D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.conteudo-02 h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Prata', serif;    
+}
+.conteudo-02 p, a{
+    font-size: 12px;
+}
+.conteudo-02 a{
+    text-decoration: none;
+}
+.conteudo-02 p{
+    margin-bottom: -1px;
+    margin-top: -5px;
+}
+.class-icon-1{
+    font-size: 50px;
+    background-color: white;
+    padding: 7px;
+    
+}
+.page-2{
+    background-color:#5D3F3D;
+    padding: 50px;
+}
+.page-2 h2, p, a{
+    color: white;    
+}
+.conteudo-02 a:hover{
+    color: white;
+    font-weight:bold;
+}
+/*PAGE-3*/
+.page-3{
+    margin: 50px 0 20px 0;
+}
+.titulo-pag-3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Prata', serif;
+    text-transform: uppercase;
+}
+.linha-preta{
+    display: flex;
+    align-items: center;
+    border-bottom: 0.4px solid black;
+}
+.centro-itens{
+    display: flex;
+    align-items: center;
+}
+.marcas{
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+/*FOOTER*/
+.rodape a{
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #bbb8b6;
+}
+.rodape p{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.rodape{
+    background-color: #000000;
+}
+.rodape h1{
+    color: white;
+}
+.color-gray{
+    color: #bbb8b6;
+}
+.font-h1{
+    font-weight: 600;
+}
+.edicao-footer{
+    padding: 50px;
+}
+.edicao-footer h1{
+    margin-bottom: 35px;
+}
+.linha{
+    display: block;
+    border-bottom: 0.4px solid white;
+}
+.class-icon-2{
+    color: white;
+    font-size: 25px;
+    margin: 8px;
+    margin-top: 0px;
+}
+.rodape h1{
+    font-size:24px;
+}
+.espace-left{
+    margin-left: 25px;
+}
+.edicao-footer a:hover{
+    color: white;
+    font-weight: bold;
+}
+.class-icon-2:hover{
+    color: #5D3F3D;
+    
+}
+.div-direita{
+    display: flex;
+    justify-content: end;
+}
+.div-direita a{
+    margin-right: 10px;
+}
+.margin-top-footer{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.div-direita a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+@media (min-width:1200px) and (max-width:2000px){
+    .margin-right-cont{
+        margin-right: 100px;
+    }
+}
+@media (min-width: 0px) and (max-width:992px){
+    .margin-bottom-cont{
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 0px) and (max-width:768px){
+    .display-block{
+        display: block;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width:992px){
+    .h1-992px{
+        margin-top: 35px;
+    }
+    .h1-2-992px{
+        margin-left: 3px;
+    }
+}
+@media (min-width: 0px) and (max-width:576px){
+    .linha-preta{
+        display: none;
+    }
+
+}
+@media (min-width: 576px) and (max-width:992px){
+    .space-marcas{
+        margin-bottom: 25px;
+
+    }
+}
+@media (min-width: 0px) and (max-width:576px){
+    .space-marcas{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .marca-2{
+       display:flex;
+       justify-content: center;
+    }
+}
+@media (min-width: 0px) and (max-width:992px){
+   .color-div{
+       background-color: white;
+   }
+
+}
