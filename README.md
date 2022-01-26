@@ -1,6 +1,7 @@
 # LojaDeRoupas-LandingPage
  Landing Page de uma loja masculina de roupas
-Lista de tarefas
+ 
+Lista de tarefas:
 - [x] Criar a ladding page.
 - [x] Deixar site responsivo.
 - [x] Publicar no GitHub Pages:
