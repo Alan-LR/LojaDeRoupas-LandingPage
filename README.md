@@ -3,6 +3,7 @@
  
 Lista de tarefas:
 - [x] Criar a ladding page.
+- [x] Editar o estilo com CSS.
 - [x] Deixar site responsivo.
 - [x] Publicar no GitHub Pages:
 
